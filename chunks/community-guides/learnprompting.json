@@ -1,0 +1,37 @@
+[
+  {
+    "id": "intro-prompt-engineering",
+    "title": "Introduction to Prompt Engineering",
+    "summary": "Introduces the fundamental concepts of crafting prompts to effectively interact with AI systems.",
+    "keywords": ["prompt engineering", "AI interaction", "basics"],
+    "content": "This section provides an overview of prompt engineering, explaining how to create prompts that guide AI systems like ChatGPT to produce desired outputs. It covers the importance of clarity, context, and specificity in prompt design."
+  },
+  {
+    "id": "prompt-structure",
+    "title": "Understanding Prompt Structure",
+    "summary": "Explains the key components of a prompt and their respective roles in guiding AI responses.",
+    "keywords": ["prompt structure", "components", "AI responses"],
+    "content": "This section delves into the anatomy of a prompt, detailing elements such as directives, context, examples, and output indicators. Understanding these components helps in crafting prompts that yield more accurate and relevant AI outputs."
+  },
+  {
+    "id": "shot-based-prompting",
+    "title": "Shot-Based Prompting",
+    "summary": "Explores the concepts of zero-shot, one-shot, and few-shot prompting and their applications.",
+    "keywords": ["zero-shot", "one-shot", "few-shot", "prompting techniques"],
+    "content": "This section discusses how providing different numbers of examples (shots) in prompts can influence AI performance. It explains the scenarios where each technique is most effective and provides examples of their implementation."
+  },
+  {
+    "id": "getting-started-chatgpt",
+    "title": "Getting Started with ChatGPT",
+    "summary": "Guides on setting up ChatGPT and using basic prompts for various tasks.",
+    "keywords": ["ChatGPT setup", "basic prompts", "usage guide"],
+    "content": "This section provides step-by-step instructions on how to set up ChatGPT and begin interacting with it using simple prompts. It includes examples of tasks like answering questions and summarizing text."
+  },
+  {
+    "id": "ai-image-prompting",
+    "title": "Mastering AI Image Prompting",
+    "summary": "Covers techniques for crafting prompts to generate images using AI models.",
+    "keywords": ["image prompting", "AI image generation", "prompt techniques"],
+    "content": "This section explores how to write effective prompts for AI image generation tools like DALL·E. It discusses the importance of descriptive language and provides examples of prompts that yield high-quality images."
+  }
+]
