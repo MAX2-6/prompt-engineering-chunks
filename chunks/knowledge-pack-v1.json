@@ -1,0 +1,117 @@
+{
+  "title": "Prompt Engineering Knowledge Pack",
+  "source": "https://platform.openai.com/docs/guides/prompt-engineering",
+  "strategies": [
+    {
+      "strategy": "Write clear instructions",
+      "tactics": [
+        {
+          "name": "Include details in your query",
+          "bad_example": "How do I add numbers in Excel?",
+          "good_example": "How do I add up a row of dollar amounts in Excel? I want to do this automatically for a whole sheet of rows with all the totals ending up on the right in a column called 'Total'."
+        },
+        {
+          "name": "Ask the model to adopt a persona",
+          "system_prompt": "You are a helpful assistant that includes one joke or playful comment in every paragraph."
+        },
+        {
+          "name": "Use delimiters to clearly indicate distinct parts of the input",
+          "example": "Summarize the text delimited by triple quotes with a haiku. \"\"\"insert text here\"\"\""
+        },
+        {
+          "name": "Specify the steps required to complete a task",
+          "example": "Step 1 - Summarize the text. Step 2 - Translate the summary into Spanish."
+        },
+        {
+          "name": "Provide examples",
+          "example": "Teach me about patience. → The river that carves the deepest valley..."
+        },
+        {
+          "name": "Specify the desired length of the output",
+          "examples": [
+            "Summarize in about 50 words.",
+            "Summarize in 2 paragraphs.",
+            "Summarize in 3 bullet points."
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Provide reference text",
+      "tactics": [
+        {
+          "name": "Instruct the model to answer using a reference text",
+          "system_instruction": "Use the provided articles delimited by triple quotes to answer questions."
+        },
+        {
+          "name": "Answer with citations from reference text",
+          "system_instruction": "Answer using only the provided document, and cite with {\"citation\": ...}."
+        }
+      ]
+    },
+    {
+      "strategy": "Split complex tasks into simpler subtasks",
+      "tactics": [
+        {
+          "name": "Use intent classification",
+          "system_instruction": "Classify customer queries and provide next steps per category."
+        },
+        {
+          "name": "Summarize or filter previous dialogue",
+          "purpose": "To handle long conversations within limited context window."
+        },
+        {
+          "name": "Summarize long documents recursively",
+          "purpose": "Break document into sections, summarize each, then summarize summaries."
+        }
+      ]
+    },
+    {
+      "strategy": "Give models time to think",
+      "tactics": [
+        {
+          "name": "Instruct model to reason step-by-step",
+          "example": "Let’s think step by step."
+        },
+        {
+          "name": "Use inner monologue",
+          "example": "Enclose reasoning in triple quotes to hide from user."
+        },
+        {
+          "name": "Ask if anything was missed",
+          "example": "Are there more relevant excerpts?"
+        }
+      ]
+    },
+    {
+      "strategy": "Use external tools",
+      "tactics": [
+        {
+          "name": "Embeddings-based knowledge retrieval",
+          "summary": "Embed and search relevant documents for context injection."
+        },
+        {
+          "name": "Code execution",
+          "summary": "Instruct the model to write and run code for accurate computation."
+        },
+        {
+          "name": "Function calling",
+          "summary": "Use structured function schema for API call generation."
+        }
+      ]
+    },
+    {
+      "strategy": "Test changes systematically",
+      "tactics": [
+        {
+          "name": "Evaluate outputs with reference answers",
+          "method": "Compare model output to gold-standard and count matched facts."
+        },
+        {
+          "name": "Overlap/contradiction analysis",
+          "method": "Classify as subset/superset/disjoint and detect contradictions."
+        }
+      ]
+    }
+  ]
+}
