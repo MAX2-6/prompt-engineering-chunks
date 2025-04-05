@@ -1,0 +1,8 @@
+{
+  "id": "few-shot",
+  "name": "Few-shot Prompting",
+  "description": "예시를 1~3개 제시하여 GPT의 출력 형식을 조절하거나 기대 응답을 유도합니다.",
+  "when_to_use": "스타일, 포맷, 응답 구조를 고정하고 싶을 때",
+  "example": "Q: What's 2+2?\nA: 4\nQ: What's 5+7?\nA: 12",
+  "references": ["https://arxiv.org/abs/2005.14165"]
+}
