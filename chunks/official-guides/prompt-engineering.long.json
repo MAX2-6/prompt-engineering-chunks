@@ -1,0 +1,130 @@
+{
+  "id": "openai-prompt-engineering-long",
+  "title": "OpenAI Prompt Engineering Guide (Full)",
+  "source": "https://platform.openai.com/docs/guides/prompt-engineering",
+  "summary": "Full breakdown of OpenAI’s official prompt engineering guide, including strategies, tactics, and example prompts.",
+  "keywords": ["prompt engineering", "OpenAI", "guide", "strategies", "examples"],
+  "strategies": [
+    {
+      "strategy": "Write clear instructions",
+      "tactics": [
+        {
+          "name": "Include details in your query",
+          "explanation": "Provide enough context so the model doesn't have to guess what you want.",
+          "examples": {
+            "bad": "How do I add numbers in Excel?",
+            "good": "How do I add up a row of dollar amounts in Excel? I want to do this automatically for a whole sheet of rows with all the totals ending up on the right in a column called 'Total'."
+          }
+        },
+        {
+          "name": "Ask the model to adopt a persona",
+          "explanation": "Guide the model’s tone or style using system messages.",
+          "example": "You are a helpful assistant that includes one joke or playful comment in every paragraph."
+        },
+        {
+          "name": "Use delimiters",
+          "explanation": "Use quotes, XML tags, markdown to separate content.",
+          "example": "Summarize the text delimited by triple quotes with a haiku. \"\"\"insert text here\"\"\""
+        },
+        {
+          "name": "Specify steps",
+          "explanation": "Break complex tasks into step-by-step instructions.",
+          "example": "Step 1 - Summarize the text. Step 2 - Translate the summary into Spanish."
+        },
+        {
+          "name": "Provide examples",
+          "explanation": "Show the format you want by providing a few examples.",
+          "example": "Teach me about patience. → The river that carves the deepest valley..."
+        },
+        {
+          "name": "Specify desired output length",
+          "explanation": "Control verbosity by stating target length (words, paragraphs, bullets).",
+          "examples": [
+            "Summarize in 50 words.",
+            "Summarize in 2 paragraphs.",
+            "Summarize in 3 bullet points."
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "Provide reference text",
+      "tactics": [
+        {
+          "name": "Instruct the model to use the reference only",
+          "example": "Use the provided articles delimited by triple quotes to answer questions."
+        },
+        {
+          "name": "Request citations",
+          "example": "Answer using only the provided document and cite with {\"citation\": ...}."
+        }
+      ]
+    },
+    {
+      "strategy": "Split complex tasks",
+      "tactics": [
+        {
+          "name": "Use intent classification",
+          "explanation": "Classify user query first, then apply matching prompt logic.",
+          "example": "Sort input into Billing, Support, Account, General Inquiry → then apply rules."
+        },
+        {
+          "name": "Summarize long conversations",
+          "explanation": "Keep context short by summarizing past turns or extracting only what matters."
+        },
+        {
+          "name": "Chunk & summarize long docs",
+          "explanation": "Summarize each chunk, then summarize summaries (recursive summarization)."
+        }
+      ]
+    },
+    {
+      "strategy": "Let the model think",
+      "tactics": [
+        {
+          "name": "Instruct chain-of-thought",
+          "example": "Let’s think step by step."
+        },
+        {
+          "name": "Use inner monologue",
+          "example": "Reason step-by-step inside triple quotes, then output answer."
+        },
+        {
+          "name": "Ask what was missed",
+          "example": "Are there more relevant excerpts?"
+        }
+      ]
+    },
+    {
+      "strategy": "Use external tools",
+      "tactics": [
+        {
+          "name": "Use RAG (embeddings search)",
+          "explanation": "Retrieve relevant data and inject into prompt context."
+        },
+        {
+          "name": "Code execution",
+          "explanation": "Have model write code and execute it to get results.",
+          "example": "```python print(2 + 2) ```"
+        },
+        {
+          "name": "Function calling",
+          "explanation": "Use OpenAI’s function schema to trigger APIs or functions directly."
+        }
+      ]
+    },
+    {
+      "strategy": "Test changes systematically",
+      "tactics": [
+        {
+          "name": "Evaluate against gold answers",
+          "explanation": "Use test cases and check how many answers are complete and correct."
+        },
+        {
+          "name": "Check for overlap and contradiction",
+          "explanation": "Compare submitted vs expert answer and label as subset, superset, overlap, contradiction."
+        }
+      ]
+    }
+  ]
+}
