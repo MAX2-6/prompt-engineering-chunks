@@ -9,6 +9,7 @@ It’s designed to support building **purpose-driven GPTs**, including GPTs that
 
 ```
 chunks/
+├─ knowledge-pack-v1.json
 ├─ official-guides/
 │   ├─ prompt-engineering.long.json
 │   └─ openai-llm-accuracy.json
