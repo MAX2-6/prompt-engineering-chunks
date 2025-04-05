@@ -1,0 +1,94 @@
+{
+  "id": "chatgpt-prompt-engineering-dev",
+  "title": "ChatGPT Prompt Engineering for Developers (DeepLearning.AI)",
+  "source": "https://github.com/ksm26/chatGPT-Prompt-Engineering-for-Developers",
+  "summary": "Developer-focused prompt engineering lessons and best practices from DeepLearning.AI + OpenAI course. Focuses on intent alignment, output control, and structured prompting.",
+  "sections": [
+    {
+      "title": "Principles of Prompt Engineering",
+      "items": [
+        {
+          "name": "Write clear instructions",
+          "description": "Make your prompts specific, detailed, and unambiguous to reduce hallucinations and off-topic output."
+        },
+        {
+          "name": "Give the model time to think",
+          "description": "Use reasoning patterns like chain-of-thought to improve step-by-step problem solving."
+        },
+        {
+          "name": "Use examples to guide output",
+          "description": "Provide input/output pairs or few-shot examples to shape model responses reliably."
+        }
+      ]
+    },
+    {
+      "title": "Techniques Covered",
+      "items": [
+        {
+          "name": "Few-shot prompting",
+          "description": "Providing 1~3 examples to steer response format and content."
+        },
+        {
+          "name": "Delimiters",
+          "description": "Use quotes, tags, or markdown code blocks to isolate parts of the input."
+        },
+        {
+          "name": "Format control",
+          "description": "Explicitly ask for output formats like JSON, tables, or bullet points."
+        },
+        {
+          "name": "Instructed style",
+          "description": "Control tone/persona: e.g. 'Respond as a pirate', 'Use academic tone'."
+        }
+      ]
+    },
+    {
+      "title": "Developer Usage Patterns",
+      "items": [
+        {
+          "name": "Structured output",
+          "description": "Useful for parsing and automation. Ask GPT to respond with fields, e.g. { \"summary\": ..., \"keywords\": [...] }"
+        },
+        {
+          "name": "Classification",
+          "description": "Prompt the model to classify inputs into fixed categories (e.g. topic, intent, mood)."
+        },
+        {
+          "name": "Information extraction",
+          "description": "Pull specific data from unstructured text like articles or conversations."
+        },
+        {
+          "name": "Iterative prompting",
+          "description": "Break complex tasks into multiple steps, reuse intermediate results, refine outputs."
+        }
+      ]
+    },
+    {
+      "title": "Common Failure Modes",
+      "items": [
+        {
+          "name": "Under-specified prompts",
+          "description": "Too vague or open-ended prompts lead to generic or off-topic answers."
+        },
+        {
+          "name": "Hallucination",
+          "description": "Model makes up facts when not grounded with context or examples."
+        },
+        {
+          "name": "Format drift",
+          "description": "Model fails to follow required output format across requests."
+        }
+      ]
+    },
+    {
+      "title": "Best Practice Summary",
+      "items": [
+        "Be specific about format, tone, length, and task.",
+        "Use delimiters and structured prompts to reduce ambiguity.",
+        "Test and iterate on prompts to reduce errors.",
+        "Use few-shot examples to guide style and structure.",
+        "Chain multiple prompts or steps if task is complex."
+      ]
+    }
+  ]
+}
