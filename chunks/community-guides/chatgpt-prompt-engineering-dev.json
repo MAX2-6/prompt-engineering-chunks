@@ -1,0 +1,51 @@
+[
+  {
+    "id": "prompt-guidelines",
+    "title": "Prompt Writing Guidelines",
+    "summary": "Provides guidelines and best practices for writing effective prompts.",
+    "keywords": ["prompt writing", "best practices", "guidelines"],
+    "content": "This notebook offers a set of guidelines to craft effective prompts when working with language models. It emphasizes clarity, specificity, and context to achieve desired outputs."
+  },
+  {
+    "id": "iterative-prompting",
+    "title": "Iterative Prompt Development",
+    "summary": "Explores methods to iteratively analyze and refine prompts for desired outputs.",
+    "keywords": ["iterative development", "prompt refinement", "analysis"],
+    "content": "This notebook guides users through the process of analyzing and refining prompts in an iterative manner to generate effective outputs. It includes examples and techniques for systematic improvement."
+  },
+  {
+    "id": "text-summarization",
+    "title": "Text Summarization Techniques",
+    "summary": "Covers techniques for condensing lengthy texts into concise summaries.",
+    "keywords": ["summarization", "text condensing", "abstraction"],
+    "content": "This notebook delves into methods for summarizing long texts, focusing on extracting key information and presenting it in a concise manner. It discusses both extractive and abstractive summarization approaches."
+  },
+  {
+    "id": "text-inferring",
+    "title": "Text Inferring Methods",
+    "summary": "Introduces methods for performing inference tasks like sentiment classification and topic extraction.",
+    "keywords": ["inference", "sentiment analysis", "topic extraction"],
+    "content": "This notebook explores techniques for inferring information from text, such as determining sentiment or extracting underlying topics. It provides practical examples and applications of these methods."
+  },
+  {
+    "id": "text-transformation",
+    "title": "Text Transformation Techniques",
+    "summary": "Discusses methods for transforming text, including translation and grammar correction.",
+    "keywords": ["text transformation", "translation", "grammar correction"],
+    "content": "This notebook covers various techniques for transforming text, such as translating between languages and correcting spelling or grammatical errors. It includes practical examples and best practices."
+  },
+  {
+    "id": "text-expansion",
+    "title": "Text Expansion Strategies",
+    "summary": "Explores strategies for automatically generating text to expand content.",
+    "keywords": ["text generation", "content expansion", "automated writing"],
+    "content": "This notebook examines methods for expanding text content through automatic generation, such as drafting emails or elaborating on bullet points. It provides insights into model capabilities and prompt strategies."
+  },
+  {
+    "id": "chatbot-construction",
+    "title": "Building Custom Chatbots",
+    "summary": "Introduces methods to build custom chatbots using prompt engineering.",
+    "keywords": ["chatbots", "prompt engineering", "custom bots"],
+    "content": "This notebook guides users through the process of creating custom chatbots by leveraging prompt engineering techniques. It covers design considerations, implementation steps, and examples."
+  }
+]
