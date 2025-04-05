@@ -1,0 +1,37 @@
+[
+  {
+    "id": "accuracy-001",
+    "title": "Overview of LLM Output Accuracy",
+    "summary": "Explanation of how LLMs generate responses and why they sometimes hallucinate.",
+    "keywords": ["accuracy", "hallucination", "language models"],
+    "content": "LLMs predict text based on patterns in training data, not facts. They're confident but not always correct. Improving accuracy involves changing how we prompt or augment model input with reliable data."
+  },
+  {
+    "id": "accuracy-002",
+    "title": "Write Better Instructions",
+    "summary": "Crafting clearer, more detailed prompts improves LLM accuracy.",
+    "keywords": ["prompt clarity", "specificity", "input design"],
+    "content": "If a model gives you the wrong answer, the first step is to ask whether the question was well-phrased. Vague or overly broad prompts result in vague answers. Examples, step lists, and precise formats help."
+  },
+  {
+    "id": "accuracy-003",
+    "title": "Use Reference Text",
+    "summary": "Supplying models with curated, trusted information improves factual correctness.",
+    "keywords": ["retrieval", "context injection", "reference text"],
+    "content": "Models can't access real-time information, but you can feed them accurate context via reference text in the prompt. Example: paste in a paragraph from a manual before asking a technical question."
+  },
+  {
+    "id": "accuracy-004",
+    "title": "Use External Tools",
+    "summary": "Combining LLMs with external functions and APIs boosts precision.",
+    "keywords": ["code interpreter", "function calling", "retrieval augmented generation"],
+    "content": "Use embeddings to retrieve relevant data, or allow the model to trigger external functions. Code interpreter can be used for accurate math or logic."
+  },
+  {
+    "id": "accuracy-005",
+    "title": "Evaluate Prompt Changes Systematically",
+    "summary": "Test changes with evals to make sure performance actually improves.",
+    "keywords": ["evals", "A/B testing", "performance tracking"],
+    "content": "A prompt might look better in one case but worse overall. Use test sets or eval frameworks to confirm real improvements, not just lucky outputs."
+  }
+]
