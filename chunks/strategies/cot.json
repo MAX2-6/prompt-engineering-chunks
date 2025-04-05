@@ -1,0 +1,8 @@
+{
+  "id": "cot",
+  "name": "Chain-of-Thought",
+  "description": "단계적 사고 과정을 명시적으로 유도하여 복잡한 추론이나 수학 문제에 강한 성능을 보이는 전략입니다.",
+  "when_to_use": "복잡한 문제 해결, 수학, 논리적 추론",
+  "example": "Let’s think step by step...",
+  "references": ["https://arxiv.org/abs/2201.11903"]
+}
