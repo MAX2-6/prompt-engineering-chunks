@@ -1,0 +1,43 @@
+{
+  "id": "promptingguide-evaluation",
+  "title": "Prompt Evaluation Metrics",
+  "source": "https://www.promptingguide.ai/kr/evaluation",
+  "summary": "A structured framework for evaluating prompt effectiveness based on relevance, correctness, style, and more.",
+  "metrics": [
+    {
+      "metric": "Accuracy",
+      "description": "How factually correct is the output?",
+      "low_example": "Incorrect details, hallucinated facts.",
+      "high_example": "Correct answer supported by facts.",
+      "evaluation_method": "Compare to gold standard or trusted reference."
+    },
+    {
+      "metric": "Relevance",
+      "description": "Does the response stay on-topic and address the input prompt?",
+      "low_example": "Off-topic or generic reply.",
+      "high_example": "Specific, directly related to input.",
+      "evaluation_method": "Manual scoring (1-5), or embedding similarity."
+    },
+    {
+      "metric": "Conciseness",
+      "description": "Is the output brief but sufficient?",
+      "low_example": "Rambling, redundant.",
+      "high_example": "Short, focused, complete.",
+      "evaluation_method": "Compare length vs required detail."
+    },
+    {
+      "metric": "Creativity",
+      "description": "Is the output original and expressive?",
+      "low_example": "Plain, repetitive response.",
+      "high_example": "Unique, metaphorical, or humorous phrasing.",
+      "evaluation_method": "Human or model judgment."
+    },
+    {
+      "metric": "Coherence",
+      "description": "Are ideas logically connected and easy to follow?",
+      "low_example": "Fragmented, inconsistent.",
+      "high_example": "Logical flow with transitions.",
+      "evaluation_method": "Readability + logic flow analysis."
+    }
+  ]
+}
