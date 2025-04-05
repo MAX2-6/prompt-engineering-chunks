@@ -1,0 +1,8 @@
+{
+  "id": "react",
+  "name": "ReAct (Reason + Act)",
+  "description": "이 전략은 LLM이 사고하고 행동할 수 있게 만드는 멀티스텝 방식입니다. 생각과 행동을 번갈아 기록하여 도구 호출이나 외부 연산과의 상호작용에 적합합니다.",
+  "when_to_use": "툴 사용, 계산, 웹 검색이 필요한 GPT",
+  "example": "Thought: I need to find the population of Japan. Action: Search[Population of Japan]",
+  "references": ["https://arxiv.org/abs/2210.03629"]
+}
