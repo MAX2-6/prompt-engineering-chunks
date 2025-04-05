@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ai-definition-overview",
+    "title": "What is AI?",
+    "summary": "Explains the basic definition of AI, including machine learning and neural networks.",
+    "keywords": ["AI", "machine learning", "deep learning", "definition"],
+    "content": "AI, or Artificial Intelligence, refers to systems that perform tasks normally requiring human intelligence. This includes recognizing images, understanding language, and making decisions. Subfields include machine learning (learning from data) and deep learning (multi-layer neural networks)."
+  },
+  {
+    "id": "ai-application-strategy",
+    "title": "How to Use AI in Business",
+    "summary": "Provides strategic advice on identifying use cases and setting up AI initiatives in companies.",
+    "keywords": ["AI business", "AI strategy", "deployment", "enterprise"],
+    "content": "Companies can leverage AI by identifying feasible use cases that create value. Steps include defining objectives, gathering the right data, building minimal viable AI systems, and iterating based on feedback. Organizational buy-in and team alignment are crucial."
+  },
+  {
+    "id": "ai-project-lifecycle",
+    "title": "AI Project Workflow",
+    "summary": "Describes the key stages in developing and deploying an AI system.",
+    "keywords": ["AI lifecycle", "AI pipeline", "AI project stages"],
+    "content": "The AI project lifecycle typically includes: data collection, data cleaning, training models, evaluating performance, deployment, and monitoring. Success depends on cross-functional collaboration and realistic expectations about capabilities."
+  },
+  {
+    "id": "ai-social-impact",
+    "title": "Social Impacts of AI",
+    "summary": "Highlights the positive and negative effects AI can have on society and the workforce.",
+    "keywords": ["AI ethics", "job displacement", "automation", "impact"],
+    "content": "AI has the potential to increase productivity and innovation, but also risks job displacement and inequality. It is important to consider societal effects and design systems that are inclusive, fair, and transparent."
+  },
+  {
+    "id": "ai-limitations-ethics",
+    "title": "Ethics and Limitations of AI",
+    "summary": "Covers the ethical considerations and technical boundaries of AI systems.",
+    "keywords": ["AI ethics", "bias", "limitations", "responsibility"],
+    "content": "AI systems can reflect and amplify human biases. Limitations include lack of common sense, inability to reason causally, and dependency on data quality. Developers must ensure systems are safe, explainable, and used responsibly."
+  }
+]
