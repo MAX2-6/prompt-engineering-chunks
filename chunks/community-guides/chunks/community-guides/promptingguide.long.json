@@ -1,0 +1,83 @@
+{
+  "id": "promptingguide-long",
+  "title": "Prompting Guide (Long Form)",
+  "source": "https://www.promptingguide.ai/kr",
+  "summary": "Comprehensive techniques and patterns for advanced prompt engineering. Focuses on manipulation, reasoning, format control, and more.",
+  "keywords": ["prompt techniques", "prompting guide", "advanced prompting", "patterns"],
+  "techniques": [
+    {
+      "category": "Style Manipulation",
+      "description": "Change the tone or persona of the assistant to match desired voice.",
+      "examples": [
+        "Use a Shakespearean tone.",
+        "Respond like a pirate.",
+        "Explain sarcastically or humorously."
+      ]
+    },
+    {
+      "category": "Role Prompting",
+      "description": "Assign a specific identity or function to the model using system or user prompts.",
+      "examples": [
+        "You are a math teacher for 6th grade students.",
+        "Act as a legal advisor specializing in contracts."
+      ]
+    },
+    {
+      "category": "Format Control",
+      "description": "Guide the model to return output in a specific structure or syntax.",
+      "examples": [
+        "Respond in JSON format.",
+        "Present as a table with three columns: term, definition, example.",
+        "Use Markdown with H2 and bullet lists."
+      ]
+    },
+    {
+      "category": "Content Compression",
+      "description": "Ask the model to summarize or condense input text.",
+      "examples": [
+        "TL;DR of the following article...",
+        "Summarize in a single sentence.",
+        "Write a headline version."
+      ]
+    },
+    {
+      "category": "Content Expansion",
+      "description": "Prompt the model to elaborate, add detail, or extend ideas.",
+      "examples": [
+        "Expand this idea into a short story.",
+        "Add an analogy for a beginner to understand."
+      ]
+    },
+    {
+      "category": "Chain-of-Thought",
+      "description": "Encourage reasoning and step-by-step thinking to improve accuracy.",
+      "examples": [
+        "Let's think step by step...",
+        "Explain your reasoning before giving the final answer."
+      ]
+    },
+    {
+      "category": "In-Context Learning",
+      "description": "Provide examples to guide model behavior (few-shot prompting).",
+      "examples": [
+        "Q: What is 2+2? A: 4",
+        "Q: Translate 'hello' → A: 'hola'"
+      ]
+    },
+    {
+      "category": "Multi-turn Prompting",
+      "description": "Maintain context across multiple exchanges.",
+      "examples": [
+        "Remember this list: apples, bananas, oranges. Later: What was the second item?"
+      ]
+    },
+    {
+      "category": "Meta Prompting",
+      "description": "Ask the model to evaluate or rewrite prompts themselves.",
+      "examples": [
+        "Rate this prompt for clarity and suggest improvements.",
+        "Rewrite the following prompt to be more specific."
+      ]
+    }
+  ]
+}
